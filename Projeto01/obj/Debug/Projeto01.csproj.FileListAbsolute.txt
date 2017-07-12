@@ -104,3 +104,7 @@ F:\Git\repository\LivroAspNetMVC5\Projeto01\bin\pt-br\System.Web.Mvc.resources.d
 F:\Git\repository\LivroAspNetMVC5\Projeto01\obj\Debug\Projeto01.csprojResolveAssemblyReference.cache
 F:\Git\repository\LivroAspNetMVC5\Projeto01\obj\Debug\Projeto01.dll
 F:\Git\repository\LivroAspNetMVC5\Projeto01\obj\Debug\Projeto01.pdb
+F:\Git\repository\LivroAspNetMVC5\Projeto01\bin\EntityFramework.dll
+F:\Git\repository\LivroAspNetMVC5\Projeto01\bin\EntityFramework.SqlServer.dll
+F:\Git\repository\LivroAspNetMVC5\Projeto01\bin\EntityFramework.xml
+F:\Git\repository\LivroAspNetMVC5\Projeto01\bin\EntityFramework.SqlServer.xml
