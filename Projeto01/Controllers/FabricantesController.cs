@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using Projeto01.Contexts;
 using Projeto01.Models;
 using System.Net;
+using System.Data.Entity;
 
 namespace Projeto01.Controllers
 {
@@ -38,6 +39,8 @@ namespace Projeto01.Controllers
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);  // Gera codigos de erro HTTP
+
+
             }
             Fabricante fabricante = context.Fabricantes.Find(id);
             if (fabricante == null)
@@ -47,7 +50,57 @@ namespace Projeto01.Controllers
             return View(fabricante);
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(Fabricante fabricante)
+        {
+            if (ModelState.IsValid)
+            {
+                context.Entry(fabricante).State = EntityState.Modified;
+                context.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(fabricante);
+        }
 
+        public ActionResult Details(long? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Fabricante fabricante = context.Fabricantes.Find(id);
+            if (fabricante == null)
+            {
+                return HttpNotFound();
+            }
+            return View(fabricante);
+
+        }
+
+        public ActionResult Delete(long? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Fabricante fabricante = context.Fabricantes.Find(id);
+            if (fabricante == null)
+            {
+                return HttpNotFound();
+            }
+            return View(fabricante);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(long id)
+        {
+            Fabricante fabricante = context.Fabricantes.Find(id);
+            context.Fabricantes.Remove(fabricante);
+            context.SaveChanges();
+            return RedirectToAction("Index");
+        }
 
     }
 }
