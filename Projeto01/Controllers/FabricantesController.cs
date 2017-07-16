@@ -69,7 +69,7 @@ namespace Projeto01.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Fabricante fabricante = context.Fabricantes.Find(id);
+            Fabricante fabricante = context.Fabricantes.Where(f => f.FabricanteID == id).Include("Produtos.Categoria").First();
             if (fabricante == null)
             {
                 return HttpNotFound();
