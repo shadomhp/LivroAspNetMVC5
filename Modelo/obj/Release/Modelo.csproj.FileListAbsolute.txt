@@ -1,0 +1,5 @@
+F:\Git\repository\LivroAspNetMVC5\Modelo\obj\Release\Modelo.csprojResolveAssemblyReference.cache
+F:\Git\repository\LivroAspNetMVC5\Modelo\bin\Release\Modelo.dll
+F:\Git\repository\LivroAspNetMVC5\Modelo\bin\Release\Modelo.pdb
+F:\Git\repository\LivroAspNetMVC5\Modelo\obj\Release\Modelo.dll
+F:\Git\repository\LivroAspNetMVC5\Modelo\obj\Release\Modelo.pdb
