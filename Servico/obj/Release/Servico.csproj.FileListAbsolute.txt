@@ -1,0 +1,12 @@
+F:\Git\repository\LivroAspNetMVC5\Servico\obj\Release\Servico.csprojResolveAssemblyReference.cache
+F:\Git\repository\LivroAspNetMVC5\Servico\bin\Release\Servico.dll
+F:\Git\repository\LivroAspNetMVC5\Servico\bin\Release\Servico.pdb
+F:\Git\repository\LivroAspNetMVC5\Servico\bin\Release\Modelo.dll
+F:\Git\repository\LivroAspNetMVC5\Servico\bin\Release\Persistencia.dll
+F:\Git\repository\LivroAspNetMVC5\Servico\bin\Release\EntityFramework.dll
+F:\Git\repository\LivroAspNetMVC5\Servico\bin\Release\Modelo.pdb
+F:\Git\repository\LivroAspNetMVC5\Servico\bin\Release\Persistencia.pdb
+F:\Git\repository\LivroAspNetMVC5\Servico\bin\Release\Persistencia.dll.config
+F:\Git\repository\LivroAspNetMVC5\Servico\bin\Release\EntityFramework.xml
+F:\Git\repository\LivroAspNetMVC5\Servico\obj\Release\Servico.dll
+F:\Git\repository\LivroAspNetMVC5\Servico\obj\Release\Servico.pdb

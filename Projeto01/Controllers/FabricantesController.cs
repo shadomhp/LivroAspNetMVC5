@@ -3,20 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using Projeto01.Contexts;
 using System.Net;
 using System.Data.Entity;
 using Modelo.Cadastros;
+using Servico.Cadastros;
 
 namespace Projeto01.Controllers
 {
     public class FabricantesController : Controller
     {
-        private EFContext context = new EFContext();
+        private FabricanteServico fabricanteServico = new FabricanteServico();
+
         // GET: Fabricantes
         public ActionResult Index()
         {
-            return View(context.Fabricantes.OrderBy(c => c.Nome));
+            return View(fabricanteServico.ObterFabricantesClassificadosPorNome());
         }
 
         //Responsável pela geração da View Inserção no banco
@@ -103,5 +104,7 @@ namespace Projeto01.Controllers
             return RedirectToAction("Index");
         }
 
+
+       
     }
 }

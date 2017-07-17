@@ -1,0 +1,12 @@
+F:\Git\repository\LivroAspNetMVC5\Persistencia\bin\Release\Persistencia.dll.config
+F:\Git\repository\LivroAspNetMVC5\Persistencia\bin\Release\Persistencia.dll
+F:\Git\repository\LivroAspNetMVC5\Persistencia\bin\Release\Persistencia.pdb
+F:\Git\repository\LivroAspNetMVC5\Persistencia\bin\Release\EntityFramework.dll
+F:\Git\repository\LivroAspNetMVC5\Persistencia\bin\Release\EntityFramework.SqlServer.dll
+F:\Git\repository\LivroAspNetMVC5\Persistencia\bin\Release\Modelo.dll
+F:\Git\repository\LivroAspNetMVC5\Persistencia\bin\Release\Modelo.pdb
+F:\Git\repository\LivroAspNetMVC5\Persistencia\bin\Release\EntityFramework.xml
+F:\Git\repository\LivroAspNetMVC5\Persistencia\bin\Release\EntityFramework.SqlServer.xml
+F:\Git\repository\LivroAspNetMVC5\Persistencia\obj\Release\Persistencia.csprojResolveAssemblyReference.cache
+F:\Git\repository\LivroAspNetMVC5\Persistencia\obj\Release\Persistencia.dll
+F:\Git\repository\LivroAspNetMVC5\Persistencia\obj\Release\Persistencia.pdb
